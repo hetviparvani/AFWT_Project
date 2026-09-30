@@ -1,0 +1,104 @@
+.register-page {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #fdf4f5 0%, #f5ebe0 100%);
+  padding: 60px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.register-card {
+  background: white;
+  border-radius: 20px;
+  padding: 40px 36px;
+  box-shadow: 0 12px 40px rgba(181, 131, 141, 0.15);
+  border: 1px solid #e8d1c5;
+}
+
+.register-icon-wrap {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #ffcad4, #f5ebe0);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.register-icon {
+  font-size: 2rem;
+  color: #b5838d;
+}
+
+.register-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #4a3e3d;
+  margin-bottom: 4px;
+}
+
+.register-sub {
+  font-size: 13px;
+  color: #9d8b8e;
+}
+
+.salon-input-icon {
+  background-color: #fdf6f7;
+  border: 1px solid #e8d1c5;
+  color: #b5838d;
+}
+
+.form-control {
+  border: 1px solid #e8d1c5;
+  border-radius: 0;
+  background-color: #fffbf9;
+  color: #4a3e3d;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  padding: 10px 14px;
+}
+
+.form-control:focus {
+  border-color: #b5838d;
+  box-shadow: 0 0 0 0.2rem rgba(181, 131, 141, 0.15);
+}
+
+.input-group-text:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.input-group-text:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.input-group .form-control:last-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.btn-salon {
+  background-color: #b5838d;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+.btn-salon:hover {
+  background-color: #6d595f;
+  color: white;
+}
+
+.salon-link-text {
+  color: #b5838d;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.salon-link-text:hover {
+  color: #6d595f;
+  text-decoration: underline;
+}

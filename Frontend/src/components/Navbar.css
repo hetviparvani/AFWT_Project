@@ -1,0 +1,76 @@
+.salon-navbar {
+  background: #ffffff;
+  border-bottom: 1px solid #e8d1c5;
+  box-shadow: 0 2px 12px rgba(181, 131, 141, 0.1);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.salon-brand {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #b5838d;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.salon-brand:hover {
+  color: #6d595f;
+}
+
+.salon-link {
+  color: #4a3e3d;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 6px 14px;
+  border-radius: 8px;
+  transition: 0.2s;
+  font-family: 'Poppins', sans-serif;
+}
+
+.salon-link:hover {
+  color: #b5838d;
+  background-color: #fdf6f7;
+}
+
+.active-link {
+  color: #b5838d !important;
+  font-weight: 600;
+}
+
+.btn-salon {
+  background-color: #b5838d;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 8px 22px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-salon:hover {
+  background-color: #6d595f;
+  color: white;
+}
+
+.btn-salon-outline {
+  background: transparent;
+  color: #b5838d;
+  border: 2px solid #b5838d;
+  border-radius: 25px;
+  padding: 7px 22px;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-salon-outline:hover {
+  background-color: #b5838d;
+  color: white;
+}

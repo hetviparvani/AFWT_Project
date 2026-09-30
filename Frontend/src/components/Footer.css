@@ -1,0 +1,58 @@
+.salon-footer {
+  background-color: #4a3e3d;
+  color: #f7ebe8;
+  padding: 50px 20px 20px;
+  margin-top: 60px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer-brand {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #ffcad4;
+  margin-bottom: 10px;
+}
+
+.footer-tagline {
+  font-size: 13px;
+  color: #c9b8bb;
+  line-height: 1.7;
+}
+
+.footer-heading {
+  color: #ffcad4;
+  font-weight: 600;
+  margin-bottom: 14px;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+.footer-links {
+  font-size: 13px;
+  line-height: 2;
+}
+
+.footer-links a {
+  color: #c9b8bb;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.footer-links a:hover {
+  color: #ffcad4;
+}
+
+.footer-links li {
+  color: #c9b8bb;
+}
+
+.footer-divider {
+  border-color: #5c4d4d;
+  margin: 30px 0 16px;
+}
+
+.footer-copy {
+  font-size: 12px;
+  color: #9d8b8e;
+}

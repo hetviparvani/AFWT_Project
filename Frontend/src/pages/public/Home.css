@@ -1,0 +1,151 @@
+.home-page {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #fdf4f5 0%, #f5ebe0 60%, #fae1dd 100%);
+  padding: 80px 0 70px;
+  border-bottom: 1px solid #e8d1c5;
+}
+
+.min-vh-80 {
+  min-height: 75vh;
+}
+
+.hero-tag {
+  display: inline-block;
+  background: #ffcad4;
+  color: #6d595f;
+  padding: 5px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 18px;
+  letter-spacing: 0.3px;
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #4a3e3d;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-accent {
+  color: #b5838d;
+}
+
+.hero-subtitle {
+  font-size: 1.05rem;
+  color: #6d595f;
+  line-height: 1.8;
+  max-width: 500px;
+  margin-bottom: 32px;
+}
+
+.hero-illustration {
+  width: 280px;
+  height: 280px;
+  background: linear-gradient(135deg, #ffcad4, #f5ebe0);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #e8d1c5;
+}
+
+.hero-icon {
+  font-size: 7rem;
+  color: #b5838d;
+}
+
+.features-section {
+  background: #faf6f0;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #4a3e3d;
+}
+
+.section-sub {
+  color: #9d8b8e;
+  font-size: 15px;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 16px;
+  padding: 36px 28px;
+  border: 1px solid #e8d1c5;
+  box-shadow: 0 4px 16px rgba(181, 131, 141, 0.07);
+  transition: transform 0.25s, box-shadow 0.25s;
+  height: 100%;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(181, 131, 141, 0.15);
+}
+
+.feature-icon-wrap {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, #ffcad4, #f5ebe0);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px;
+}
+
+.feature-icon {
+  font-size: 1.8rem;
+  color: #b5838d;
+}
+
+.feature-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #4a3e3d;
+  margin-bottom: 10px;
+}
+
+.feature-text {
+  font-size: 14px;
+  color: #9d8b8e;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.btn-salon {
+  background-color: #b5838d;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-salon:hover {
+  background-color: #6d595f;
+  color: white;
+}
+
+.btn-salon-outline {
+  background: transparent;
+  color: #b5838d;
+  border: 2px solid #b5838d;
+  border-radius: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-salon-outline:hover {
+  background-color: #b5838d;
+  color: white;
+}
